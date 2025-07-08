@@ -1,1 +1,2 @@
-# SGFitGenius
+# FitGenius
+AI fitness/nutrition app

@@ -1,0 +1,703 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A42369CC2D72FCFB00790E58 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = A42369CB2D72FCFB00790E58 /* FirebaseAuth */; };
+		A42369CE2D72FCFB00790E58 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = A42369CD2D72FCFB00790E58 /* FirebaseCore */; };
+		A42369D02D72FCFB00790E58 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = A42369CF2D72FCFB00790E58 /* FirebaseFirestore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF95B5792D487E0F000A4B59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF95B55D2D487E09000A4B59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF95B5642D487E09000A4B59;
+			remoteInfo = FitGenius;
+		};
+		AF95B5832D487E0F000A4B59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF95B55D2D487E09000A4B59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF95B5642D487E09000A4B59;
+			remoteInfo = FitGenius;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF95B5652D487E0A000A4B59 /* FitGenius.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitGenius.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF95B5782D487E0F000A4B59 /* FitGeniusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitGeniusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF95B5822D487E0F000A4B59 /* FitGeniusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitGeniusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		14310B072DB7437B003EF7CE /* Exceptions for "FitGenius" folder in "FitGenius" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = AF95B5642D487E09000A4B59 /* FitGenius */;
+		};
+		B983FFA92DC09E38009E0D24 /* Exceptions for "FitGenius" folder in "FitGeniusTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				AvatarCreatorSettings.swift,
+				AvatarEdit.swift,
+				AvatarLoader.swift,
+				AvatarView.swift,
+				Events.swift,
+				"HomePageView copy.swift",
+				"MainView copy.swift",
+				UnLockOutfits.swift,
+				ViewController.swift,
+				WebCacheCleaner.swift,
+				WebViewController.swift,
+				WebViewControllerRepresentable.swift,
+				WebViewDelegate.swift,
+			);
+			target = AF95B5772D487E0F000A4B59 /* FitGeniusTests */;
+		};
+		B983FFAA2DC09E38009E0D24 /* Exceptions for "FitGenius" folder in "FitGeniusUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				AvatarCreatorSettings.swift,
+				AvatarEdit.swift,
+				AvatarLoader.swift,
+				AvatarView.swift,
+				Events.swift,
+				"HomePageView copy.swift",
+				"MainView copy.swift",
+				UnLockOutfits.swift,
+				ViewController.swift,
+				WebCacheCleaner.swift,
+				WebViewController.swift,
+				WebViewControllerRepresentable.swift,
+				WebViewDelegate.swift,
+			);
+			target = AF95B5812D487E0F000A4B59 /* FitGeniusUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		AF95B5672D487E0A000A4B59 /* FitGenius */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				14310B072DB7437B003EF7CE /* Exceptions for "FitGenius" folder in "FitGenius" target */,
+				B983FFA92DC09E38009E0D24 /* Exceptions for "FitGenius" folder in "FitGeniusTests" target */,
+				B983FFAA2DC09E38009E0D24 /* Exceptions for "FitGenius" folder in "FitGeniusUITests" target */,
+			);
+			path = FitGenius;
+			sourceTree = "<group>";
+		};
+		AF95B57B2D487E0F000A4B59 /* FitGeniusTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FitGeniusTests;
+			sourceTree = "<group>";
+		};
+		AF95B5852D487E0F000A4B59 /* FitGeniusUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FitGeniusUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF95B5622D487E09000A4B59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A42369CE2D72FCFB00790E58 /* FirebaseCore in Frameworks */,
+				A42369CC2D72FCFB00790E58 /* FirebaseAuth in Frameworks */,
+				A42369D02D72FCFB00790E58 /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF95B5752D487E0F000A4B59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF95B57F2D487E0F000A4B59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF95B55C2D487E09000A4B59 = {
+			isa = PBXGroup;
+			children = (
+				AF95B5672D487E0A000A4B59 /* FitGenius */,
+				AF95B57B2D487E0F000A4B59 /* FitGeniusTests */,
+				AF95B5852D487E0F000A4B59 /* FitGeniusUITests */,
+				AF95B5662D487E0A000A4B59 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF95B5662D487E0A000A4B59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF95B5652D487E0A000A4B59 /* FitGenius.app */,
+				AF95B5782D487E0F000A4B59 /* FitGeniusTests.xctest */,
+				AF95B5822D487E0F000A4B59 /* FitGeniusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF95B5642D487E09000A4B59 /* FitGenius */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF95B58C2D487E0F000A4B59 /* Build configuration list for PBXNativeTarget "FitGenius" */;
+			buildPhases = (
+				AF95B5612D487E09000A4B59 /* Sources */,
+				AF95B5622D487E09000A4B59 /* Frameworks */,
+				AF95B5632D487E09000A4B59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				AF95B5672D487E0A000A4B59 /* FitGenius */,
+			);
+			name = FitGenius;
+			packageProductDependencies = (
+				A42369CB2D72FCFB00790E58 /* FirebaseAuth */,
+				A42369CD2D72FCFB00790E58 /* FirebaseCore */,
+				A42369CF2D72FCFB00790E58 /* FirebaseFirestore */,
+			);
+			productName = FitGenius;
+			productReference = AF95B5652D487E0A000A4B59 /* FitGenius.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF95B5772D487E0F000A4B59 /* FitGeniusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF95B58F2D487E0F000A4B59 /* Build configuration list for PBXNativeTarget "FitGeniusTests" */;
+			buildPhases = (
+				AF95B5742D487E0F000A4B59 /* Sources */,
+				AF95B5752D487E0F000A4B59 /* Frameworks */,
+				AF95B5762D487E0F000A4B59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF95B57A2D487E0F000A4B59 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AF95B57B2D487E0F000A4B59 /* FitGeniusTests */,
+			);
+			name = FitGeniusTests;
+			packageProductDependencies = (
+			);
+			productName = FitGeniusTests;
+			productReference = AF95B5782D487E0F000A4B59 /* FitGeniusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AF95B5812D487E0F000A4B59 /* FitGeniusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF95B5922D487E0F000A4B59 /* Build configuration list for PBXNativeTarget "FitGeniusUITests" */;
+			buildPhases = (
+				AF95B57E2D487E0F000A4B59 /* Sources */,
+				AF95B57F2D487E0F000A4B59 /* Frameworks */,
+				AF95B5802D487E0F000A4B59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF95B5842D487E0F000A4B59 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AF95B5852D487E0F000A4B59 /* FitGeniusUITests */,
+			);
+			name = FitGeniusUITests;
+			packageProductDependencies = (
+			);
+			productName = FitGeniusUITests;
+			productReference = AF95B5822D487E0F000A4B59 /* FitGeniusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF95B55D2D487E09000A4B59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					AF95B5642D487E09000A4B59 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					AF95B5772D487E0F000A4B59 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = AF95B5642D487E09000A4B59;
+					};
+					AF95B5812D487E0F000A4B59 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = AF95B5642D487E09000A4B59;
+					};
+				};
+			};
+			buildConfigurationList = AF95B5602D487E09000A4B59 /* Build configuration list for PBXProject "FitGenius" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF95B55C2D487E09000A4B59;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				A42369CA2D72FCFB00790E58 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = AF95B5662D487E0A000A4B59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF95B5642D487E09000A4B59 /* FitGenius */,
+				AF95B5772D487E0F000A4B59 /* FitGeniusTests */,
+				AF95B5812D487E0F000A4B59 /* FitGeniusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF95B5632D487E09000A4B59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF95B5762D487E0F000A4B59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF95B5802D487E0F000A4B59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF95B5612D487E09000A4B59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF95B5742D487E0F000A4B59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF95B57E2D487E0F000A4B59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF95B57A2D487E0F000A4B59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF95B5642D487E09000A4B59 /* FitGenius */;
+			targetProxy = AF95B5792D487E0F000A4B59 /* PBXContainerItemProxy */;
+		};
+		AF95B5842D487E0F000A4B59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF95B5642D487E09000A4B59 /* FitGenius */;
+			targetProxy = AF95B5832D487E0F000A4B59 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AF95B58A2D487E0F000A4B59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF95B58B2D487E0F000A4B59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		AF95B58D2D487E0F000A4B59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"ASSETCATALOG_COMPILER_APPICON_NAME[sdk=iphoneos*]" = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = FitGenius/FitGenius.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FitGenius/Preview Content\"";
+				DEVELOPMENT_TEAM = P9CT5BSA84;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FitGenius/Info.plist;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This app needs access to your Health data.";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = AppIcon;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FitGenius.SG3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		AF95B58E2D487E0F000A4B59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "
+";
+				"ASSETCATALOG_COMPILER_APPICON_NAME[sdk=iphoneos*]" = "
+";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = FitGenius/FitGenius.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FitGenius/Preview Content\"";
+				DEVELOPMENT_TEAM = P9CT5BSA84;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FitGenius/Info.plist;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This app needs access to your Health data.";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = AppIcon;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Group;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		AF95B5902D487E0F000A4B59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Group3.FitGeniusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FitGenius.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FitGenius";
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		AF95B5912D487E0F000A4B59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Group3.FitGeniusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FitGenius.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FitGenius";
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		AF95B5932D487E0F000A4B59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Group3.FitGeniusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = FitGenius;
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		AF95B5942D487E0F000A4B59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Group3.FitGeniusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = FitGenius;
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF95B5602D487E09000A4B59 /* Build configuration list for PBXProject "FitGenius" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF95B58A2D487E0F000A4B59 /* Debug */,
+				AF95B58B2D487E0F000A4B59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF95B58C2D487E0F000A4B59 /* Build configuration list for PBXNativeTarget "FitGenius" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF95B58D2D487E0F000A4B59 /* Debug */,
+				AF95B58E2D487E0F000A4B59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF95B58F2D487E0F000A4B59 /* Build configuration list for PBXNativeTarget "FitGeniusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF95B5902D487E0F000A4B59 /* Debug */,
+				AF95B5912D487E0F000A4B59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF95B5922D487E0F000A4B59 /* Build configuration list for PBXNativeTarget "FitGeniusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF95B5932D487E0F000A4B59 /* Debug */,
+				AF95B5942D487E0F000A4B59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A42369CA2D72FCFB00790E58 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.9.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A42369CB2D72FCFB00790E58 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A42369CA2D72FCFB00790E58 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		A42369CD2D72FCFB00790E58 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A42369CA2D72FCFB00790E58 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		A42369CF2D72FCFB00790E58 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A42369CA2D72FCFB00790E58 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = AF95B55D2D487E09000A4B59 /* Project object */;
+}
